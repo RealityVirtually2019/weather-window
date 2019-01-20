@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e09a6ba0b094c4e0bbb24bf8c52eb894
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GradientSky: {fileID: 2100000, guid: d10ccc8dd1c734ab5b7fcaccc003a6c2, type: 2}
+  - mySlider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

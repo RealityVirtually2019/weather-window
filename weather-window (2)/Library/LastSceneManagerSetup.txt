@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/joohyun/Scene/rain.unity
-  isLoaded: 1
-  isActive: 1
