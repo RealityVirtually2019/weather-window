@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: itayniv
-  productName: weather-window-rain
+  productName: weather-window-data
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -155,7 +155,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.Unity Technologies.Native Rendering Plugin Example
     Tizen: com.Company.ProductName
-    iOS: com.itayniv.window-rain
+    iOS: com.itayniv.window-data
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
@@ -266,7 +266,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 70d23e850110340668323fbbdbf42383, type: 3}
+      m_Icon: {fileID: 2800000, guid: b4972ee07cd2943cf910201e40360a42, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

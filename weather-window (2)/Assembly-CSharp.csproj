@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\davon\changeGradientColor.cs" />
+     <Compile Include="Assets\davon\sun\rotateSun.cs" />
      <Compile Include="Assets\Ji Young\script\weatherData.cs" />
      <Compile Include="Assets\joohyun\RainMaker\Demo\DemoScript.cs" />
      <Compile Include="Assets\joohyun\RainMaker\Demo\DemoScript2D.cs" />
@@ -63,6 +65,7 @@
      <Compile Include="Assets\joohyun\RainMaker\Prefab\RainScript2D.cs" />
      <Compile Include="Assets\joohyun\Realistic Hail Set\Demo Scene\Scripts\DemoSceneController.cs" />
      <Compile Include="Assets\lookat.cs" />
+     <Compile Include="Assets\UIraycaster.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\CompressionHelper.cs" />
@@ -173,6 +176,7 @@
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARWorldMap.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
      <Compile Include="Assets\UnityARKitPlugin\UnityARKitPluginSettings.cs" />
+     <None Include="Assets\davon\GradientSkyShader.shader" />
      <None Include="Assets\joohyun\Realistic Hail Set\README.txt" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\joohyun\RainMaker\Prefab\RainShader.shader" />

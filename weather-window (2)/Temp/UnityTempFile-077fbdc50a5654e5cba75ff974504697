@@ -4,7 +4,6 @@
 -langversion:4
 -out:'Temp/Assembly-CSharp.dll'
 -nostdlib
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity/Hub/Editor/2018.2.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
 -r:'/Applications/Unity/Hub/Editor/2018.2.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
 -r:'/Applications/Unity/Hub/Editor/2018.2.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
@@ -68,6 +67,7 @@
 -r:'/Applications/Unity/Hub/Editor/2018.2.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll'
 -r:'/Applications/Unity/Hub/Editor/2018.2.19f1/Unity.app/Contents/Managed/UnityEditor.dll'
 -r:'/Applications/Unity/Hub/Editor/2018.2.19f1/Unity.app/Contents/Managed/Unity.Locator.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
 -r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
 -r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
@@ -186,6 +186,8 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+'Assets/davon/changeGradientColor.cs'
+'Assets/davon/sun/rotateSun.cs'
 'Assets/Ji Young/script/weatherData.cs'
 'Assets/joohyun/RainMaker/Demo/DemoScript.cs'
 'Assets/joohyun/RainMaker/Demo/DemoScript2D.cs'
@@ -196,6 +198,7 @@
 'Assets/joohyun/RainMaker/Prefab/RainScript2D.cs'
 'Assets/joohyun/Realistic Hail Set/Demo Scene/Scripts/DemoSceneController.cs'
 'Assets/lookat.cs'
+'Assets/UIraycaster.cs'
 'Assets/UnityARKitPlugin/ARKitRemote/ARKitFaceTrackingRemoteConnection.cs'
 'Assets/UnityARKitPlugin/ARKitRemote/ARKitRemoteConnection.cs'
 'Assets/UnityARKitPlugin/ARKitRemote/CompressionHelper.cs'
